@@ -4,7 +4,7 @@ public class ConvertDay {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a number between 1-7: ");
+        System.out.print("Enter a number between 1-7: ");
         int num = input.nextInt();
 
         if(num == 1){
@@ -38,5 +38,7 @@ public class ConvertDay {
         else{
             System.out.println("Invalid Input");
         }
+    
+        input.close();
     }
 }
