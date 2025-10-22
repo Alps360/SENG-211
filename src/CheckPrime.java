@@ -26,10 +26,6 @@ public class CheckPrime {
             if (n % i == 0) {
                 return false;
             }
-
-            else {
-                return true;
-            }
         }
         return true;
     }
