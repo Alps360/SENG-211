@@ -1,3 +1,4 @@
+package Lab2;
 enum FuelType {
     GASOLINE,
     DIESEL,
